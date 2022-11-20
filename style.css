@@ -1,0 +1,132 @@
+@font-face {
+    src: url(fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+    font-family: "Nunito Sans";
+}
+@font-face {
+    src: url(fonts/Nunito_Sans/NunitoSans-Italic.ttf);
+    font-family: "Nunito Sans Italic";
+}
+@font-face {
+    src: url(fonts/Yeseva_One/YesevaOne-Regular.ttf);
+    font-family: "Yeseva One";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.gray-text, .gray-text a {
+    color: rgba(255, 255, 255, 0.3);
+}
+.orange-text, .orange-text a {
+    color: #E3B873;
+}
+.white-text, .white-text a {
+    color: #FFFFFF;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.lower {
+    margin-top: 16px;
+}
+.projects {
+    background-color: #131313;
+}
+.projects-content {
+    margin: 0 auto;
+    max-width: 1172px;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-content__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    margin-top: 176px;
+    margin-bottom: 15px;
+    max-width: 200px;
+}
+.projects-content__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    max-width: 442px;
+    margin-bottom: 30px;
+}
+.projects-content__item {
+    margin-bottom: 30px;
+}
+.projects-content__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.projects-content__value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px; 
+}
+.projects-list__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.projects-list__item a{
+    text-decoration: none;
+}
+.projects-content__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    margin-top: 107px;
+}
+.projects-content__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 200px;
+}
+.projects-content__section {
+    padding-bottom: 100px;
+}
+.projects-icon {
+    display: flex;
+    margin-top: 80px;
+}
+.projects-icon__item {
+    background: none;
+    border: none;
+    margin-right: 17px;
+}
+.projects-img img {
+    max-width: 679px;
+    max-height: 482px;
+}
+
+.projects-icon__item:hover {
+    transform: scale(1.1);
+}
+
+.projects-list__item:hover {
+    transform: scale(1.1);
+}
